@@ -11,7 +11,7 @@ load_dotenv()
 import os
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
-LOG_URL = os.environ["LOG_URL"]
+LOG_URL = "https://raw.githubusercontent.com/24f2000164/tds-p1-telegram-bot/refs/heads/main/run.jsonl"
   # see Step 5 — where run.jsonl will be hosted
 # -------------------------------------------
 
